@@ -8,25 +8,23 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css" />
     <title>나만의 동기부여 홈화면 만들기</title>
 
     <style>
-       /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');*/
-        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
         * {
-            /* font-family: 'Poppins', sans-serif; */
-            font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-            font-size: 0.625;
+            font-family: 'Poppins', sans-serif;
+            margin:0;
+            padding:0;
         }
         body{
-            /* background-image: url("https://theperfumestore.lk/wp-content/uploads/2021/12/Issey-miyake-Leau-Dissey-eau-de-toilette-for-woman-for-her-edt-Branded-Original-fragrance-Perfume-in-Sri-Lanka.jpg");
-            background-position:top center no-repeat; */
+            background-image: url("https://www.amnhealthcare.com/siteassets/amn-insights/blog/revenue-cycle/learn-medical-coding-at-home2.jpg");
+            background-position:top center;
+            width: 100%;
         }
 
          /* 박스타입 1 */
         .boxtype1{
-            /* background-color:yellow; */
             width: 100vw;
             height: 40vh;
 
@@ -35,15 +33,14 @@
             align-items: center;
             justify-content: center;
 
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
 
         .time {
                 font-size: 1rem;
                 line-height: 1.5;
-                color:#111111;
+                color:#ffffff;
                 text-align: center;
                 margin-bottom: 0.2rem;
         }
@@ -51,54 +48,40 @@
             font-size: 5rem;
             text-align: center;
             margin-bottom: 0.5rem;
+            color: #ffffff;
         }
         .todo{
             font-size: 2rem;
             line-height: normal;
             text-align: center;
             margin-bottom: 1rem;
+            color: #ffffff;
         }
 
         /* 박스타입 2 */
         .boxtype2{
-            margin-bottom: 3rem;
-            width: 100vw;
-            background-color: rgb(0,0,0,0.2);
+            margin-bottom: 2rem;
+            width: 90vw;
+            background-color: rgba(0,0,0,0.6);
+
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
             padding-bottom:2rem;
             padding-top:2rem;
+            padding-left:1rem;
+            padding-right:1rem;
+            margin: 0 auto;
         }
         #paragraph2 .comment{
             text-align: left;
             font-size: 3vw;
             line-height: 1.65;
-            font-weight: 570;
+            font-weight: 500;
             letter-spacing: -0.03rem;
-        }
-        #paragraph2 > span {
-            animation: variable-loop 4s infinite both;
-            animation-delay: var(--delay);
-            text-align: center;
-            --delay: calc((var(--variable-index) + 1) * 0.15s);
-            color:#111111;
-        }
-        
-        @keyframes variable-loop {
-            0% {
-                font-weight: 45;
-                letter-spacing: -0.03rem;
-            }
-            50% {
-                font-weight: 760;
-                letter-spacing: -0.05rem;
-            }
-            100% {
-                font-weight: 45;
-                letter-spacing: -0.03rem;
-            }
+            color: #ffffff;
         }
     </style>
     <script>
@@ -108,15 +91,14 @@
 <body>
     <div class="boxtype1">
         <div class="time">12:00</div>
-        <div class="texthere">할 일</div>
-        <div class="todo">이번 주 코딩 공부 시작</div>
+        <div class="texthere">schdule</div>
+        <div class="todo">study html this week</div>
     </div>
 
     <div id="paragraph2" class="boxtype2">
             <span class="comment">
-            나는 헌법을 준수하고 국가를 보위하며 조국의 평화적 통일과 국민의 자유와 복리의 증진 및 민족문화의 창달에 노력하여 대통령으로서의 직책을 성실히 수행할 것을 국민 앞에 엄숙히 선서합니다.
-            대통령의 임기가 만료되는 때에는 임기만료 70일 내지 40일전에 후임자를 선거한다. 정당의 목적이나 활동이 민주적 기본질서에 위배될 때에는 정부는 헌법재판소에 그 해산을 제소할 수 있고, 정당은 헌법재판소의 심판에 의하여 해산된다.
-        </span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis malesuada magna. Donec ornare nulla est, et lobortis diam varius accumsan.
+            </span>
     </div>
     
 </body>
